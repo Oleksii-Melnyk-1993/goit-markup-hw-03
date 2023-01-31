@@ -4,6 +4,32 @@
   --font-description-color: #434455;
   --font-white-color: #ffffff;
 }
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding-left: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+address {
+  font-style: normal;
+}
+
+img {
+  display: block;
+}
 body {
   font-family: "Roboto";
   color: var(--primary-color);
