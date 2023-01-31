@@ -21,6 +21,7 @@ ul {
 
 button {
   cursor: pointer;
+  margin: 0 auto;
 }
 
 address {
@@ -33,6 +34,18 @@ img {
 body {
   font-family: "Roboto";
   color: var(--primary-color);
+}
+.container {
+  width: 100%;
+  max-width: 1200px;
+  padding-left: 156px;
+  padding-right: 156px;
+  margin: 0 auto;
+  outline: 2px solid red;
+}
+.header {
+  margin-top: 24px;
+  margin-bottom: 24px;
 }
 .logo-name {
   text-decoration: none;
@@ -62,7 +75,6 @@ body {
 }
 .header-address {
   font-weight: 400;
-  font-style: normal;
   font-size: 16px;
   line-height: 1.5;
   /* identical to box height, or 150% */
@@ -78,8 +90,10 @@ body {
 }
 .headline-box {
   background-color: var(--primary-color);
+  height: 600px;
 }
 .headline {
+  padding-top: 183px;
   color: var(--font-white-color);
   font-weight: 700;
   font-size: 56px;
@@ -88,6 +102,7 @@ body {
   letter-spacing: 0.02em;
 }
 .headline-button {
+  display: block;
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
@@ -97,6 +112,10 @@ body {
   color: var(--font-white-color);
   border-radius: 4px;
   border: 0;
+  width: 169px;
+  height: 56px;
+  margin-top: 48px;
+  margin-bottom: 188px;
 }
 .headline-button:hover,
 .headline-button:focus {
