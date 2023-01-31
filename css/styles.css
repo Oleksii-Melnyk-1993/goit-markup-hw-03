@@ -1,0 +1,147 @@
+:root {
+  --primary-color: #2e2f42;
+  --secondary-color: #4d5ae5;
+  --font-description-color: #434455;
+  --font-white-color: #ffffff;
+}
+body {
+  font-family: "Roboto";
+  color: var(--primary-color);
+}
+.logo-name {
+  text-decoration: none;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+}
+.header-list {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  list-style: none;
+}
+.header-item {
+  list-style: none;
+}
+.item {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+.item:hover,
+.item:focus {
+  color: var(--secondary-color);
+}
+.header-address {
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.5;
+  /* identical to box height, or 150% */
+  letter-spacing: 0.02em;
+}
+.header-contact {
+  text-decoration: none;
+  color: var(--font-description-color);
+}
+.header-contact:focus,
+.header-contact:hover {
+  color: var(--secondary-color);
+}
+.headline-box {
+  background-color: var(--primary-color);
+}
+.headline {
+  color: var(--font-white-color);
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+.headline-button {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  background-color: var(--secondary-color);
+  color: var(--font-white-color);
+  border-radius: 4px;
+  border: 0;
+}
+.headline-button:hover,
+.headline-button:focus {
+  background-color: var(--font-white-color);
+  color: var(--secondary-color);
+  cursor: pointer;
+}
+.main-btn {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  background-color: #f4f4fd;
+  color: var(--secondary-color);
+  border-radius: 4px;
+  border: 1px solid #e7e9fc;
+}
+.main-btn:focus,
+.main-btn:hover {
+  background-color: var(--secondary-color);
+  color: #f4f4fd;
+  cursor: pointer;
+}
+.main-item {
+  list-style: none;
+}
+.main-link {
+  text-decoration: none;
+}
+.main-title {
+  color: var(--primary-color);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  /* identical to box height, or 120% */
+
+  letter-spacing: 0.02em;
+}
+.main-after-title {
+  color: var(--font-description-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  /* identical to box height, or 150% */
+
+  letter-spacing: 0.02em;
+}
+.secondary-headline {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  /* identical to box height, or 111% */
+  color: var(--primary-color);
+}
+.box {
+  background: #2e2f42;
+}
+.word-studio-header {
+  color: #2e2f42;
+}
+.word-web {
+  color: var(--secondary-color);
+}
+.word-studio-footer {
+  color: #f4f4fd;
+}
+.footer-description {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+}
