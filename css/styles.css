@@ -37,15 +37,14 @@ body {
 }
 .container {
   width: 100%;
-  max-width: 1200px;
-  padding-left: 156px;
-  padding-right: 156px;
+  max-width: 1128px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding: 0 15px;
   margin: 0 auto;
-  /*outline: 2px solid red;*/
+  outline: 2px solid red;
 }
 .header {
-  margin-top: 24px;
-  margin-bottom: 24px;
 }
 .logo-name {
   text-decoration: none;
@@ -54,6 +53,17 @@ body {
   font-weight: 800;
   font-size: 18px;
   line-height: 1.33;
+  margin-right: 76px;
+}
+.header-container {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  display: flex;
+  align-items: center;
+}
+.header-navigation {
+  display: flex;
+  align-items: center;
 }
 .header-list {
   font-weight: 500;
@@ -61,6 +71,8 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   list-style: none;
+  display: flex;
+  gap: 40px;
 }
 .header-item {
   list-style: none;
@@ -79,6 +91,8 @@ body {
   line-height: 1.5;
   /* identical to box height, or 150% */
   letter-spacing: 0.02em;
+  display: flex;
+  margin-left: auto;
 }
 .header-contact {
   text-decoration: none;
@@ -90,16 +104,20 @@ body {
 }
 .headline-box {
   background-color: var(--primary-color);
-  height: 600px;
+}
+.headline-container {
+  padding-bottom: 188px;
 }
 .headline {
-  padding-top: 183px;
   color: var(--font-white-color);
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
+  width: 507px;
+  margin: 0 auto 48px;
+  padding-top: 188px;
 }
 .headline-button {
   display: block;
@@ -115,7 +133,6 @@ body {
   width: 169px;
   height: 56px;
   margin-top: 48px;
-  margin-bottom: 188px;
 }
 .headline-button:hover,
 .headline-button:focus {
@@ -123,9 +140,13 @@ body {
   color: var(--secondary-color);
   cursor: pointer;
 }
-.goals-list {
-  margin-top: 120px;
-  margin-bottom: 120px;
+.list-container {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.main-list {
+  display: flex;
+  gap: 24px;
 }
 .main-btn {
   font-family: inherit;
@@ -146,6 +167,8 @@ body {
 }
 .main-item {
   list-style: none;
+
+  width: calc(((100% - 90px) / 4));
 }
 .main-link {
   text-decoration: none;
@@ -157,6 +180,7 @@ body {
   font-size: 20px;
   line-height: 1.2;
   /* identical to box height, or 120% */
+  margin-bottom: 8px;
 
   letter-spacing: 0.02em;
 }
