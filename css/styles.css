@@ -44,7 +44,7 @@ body {
   padding-right: 15px;
   padding: 0 15px;
   margin: 0 auto;
-  /* outline: 2px solid red;*/
+  outline: 2px solid red;
 }
 .header {
 }
@@ -153,6 +153,7 @@ body {
   display: flex;
   gap: 24px;
 }
+
 .main-btn {
   font-family: inherit;
   font-weight: 500;
@@ -250,6 +251,22 @@ body {
 }
 .box {
   background: #2e2f42;
+}
+.buttons-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 24px;
+  padding-top: 96px;
+}
+.btn-list {
+  list-style: none;
+}
+.portfolio-container {
+  padding-top: 72px;
+}
+.portfolio-list {
+  display: flex;
 }
 .word-studio-header {
   color: #2e2f42;
