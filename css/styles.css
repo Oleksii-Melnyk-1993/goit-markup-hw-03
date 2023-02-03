@@ -44,9 +44,10 @@ body {
   padding-right: 15px;
   padding: 0 15px;
   margin: 0 auto;
-  outline: 2px solid red;
+  /*outline: 2px solid red;*/
 }
 .header {
+  border-bottom: 1px solid #e7e9fc;
 }
 .logo-name {
   text-decoration: none;
@@ -265,9 +266,13 @@ body {
   padding-top: 72px;
   padding-bottom: 120px;
 }
+.borders-text {
+  border-left: 1px solid #e7e9fc;
+  border-right: 1px solid #e7e9fc;
+  border-bottom: 1px solid #e7e9fc;
+}
 .portfolio-list {
   display: flex;
-
   flex-wrap: wrap;
   row-gap: 48px;
 }
@@ -276,7 +281,6 @@ body {
   width: calc(((100% - 48px)) / 3);
   list-style: none;
   margin-right: 24px;
-  border: 1px solid #e7e9fc;
 }
 .portfolio-list > li:nth-child(3n) {
   margin-right: 0;
@@ -292,7 +296,7 @@ body {
   line-height: 1.2;
   /* identical to box height, or 120% */
   margin-bottom: 8px;
-  margin-top: 32px;
+  padding-top: 32px;
   padding-left: 16px;
   letter-spacing: 0.02em;
 }
