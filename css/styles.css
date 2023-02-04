@@ -38,8 +38,7 @@ body {
   color: var(--primary-color);
 }
 .container {
-  width: 100%;
-  max-width: 1128px;
+  width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
   padding: 0 15px;
@@ -48,6 +47,8 @@ body {
 }
 .header {
   border-bottom: 1px solid #e7e9fc;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .logo-name {
   text-decoration: none;
@@ -59,8 +60,6 @@ body {
   margin-right: 76px;
 }
 .header-container {
-  padding-top: 24px;
-  padding-bottom: 24px;
   display: flex;
   align-items: center;
 }
@@ -107,9 +106,10 @@ body {
 }
 .headline-box {
   background-color: var(--primary-color);
+  padding-bottom: 188px;
+  padding-top: 188px;
 }
 .headline-container {
-  padding-bottom: 188px;
 }
 .headline {
   color: var(--font-white-color);
@@ -120,7 +120,6 @@ body {
   letter-spacing: 0.02em;
   width: 507px;
   margin: 0 auto 48px;
-  padding-top: 188px;
 }
 .headline-button {
   display: block;
@@ -146,6 +145,7 @@ body {
 }
 .goals-container {
   padding-top: 120px;
+  padding-bottom: 120px;
 }
 .list-container {
   padding-top: 120px;
@@ -229,8 +229,6 @@ body {
   font-size: 20px;
   line-height: 1.2;
   /* identical to box height, or 120% */
-  margin-bottom: 8px;
-  margin-top: 32px;
   letter-spacing: 0.02em;
 }
 .team-position {
@@ -241,8 +239,7 @@ body {
   line-height: 1.5;
   /* identical to box height, or 150% */
   letter-spacing: 0.02em;
-  margin-top: 8px;
-  margin-bottom: 32px;
+  padding-top: 8px;
 }
 .team-color {
   background-color: var(--font-white-color);
@@ -252,6 +249,8 @@ body {
 }
 .box {
   background: #2e2f42;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 .buttons-container {
   display: flex;
@@ -268,6 +267,8 @@ body {
   padding-bottom: 120px;
 }
 .borders-text {
+  padding-top: 32px;
+  padding-bottom: 32px;
   border-left: 1px solid #e7e9fc;
   border-right: 1px solid #e7e9fc;
   border-bottom: 1px solid #e7e9fc;
@@ -297,7 +298,7 @@ body {
   line-height: 1.2;
   /* identical to box height, or 120% */
   margin-bottom: 8px;
-  padding-top: 32px;
+
   padding-left: 16px;
   letter-spacing: 0.02em;
 }
@@ -308,7 +309,6 @@ body {
   line-height: 1.5;
   /* identical to box height, or 150% */
   letter-spacing: 0.02em;
-  padding-bottom: 32px;
   padding-left: 16px;
 }
 .word-studio-header {
@@ -322,13 +322,9 @@ body {
 }
 .footer-description {
   margin-top: 16px;
-  padding-bottom: 100px;
   width: 264px;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
-}
-.footer-logo {
-  padding-top: 100px;
 }

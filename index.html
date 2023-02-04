@@ -3,7 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <link rel="stylesheet" href="./css/styles.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -11,11 +10,12 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <link rel=“stylesheet”
-    href=“https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css”
-    integrity=“sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==”
-    crossorigin=“anonymous” referrerpolicy=“no-referrer” />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
     <title>Web Studio</title>
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <header class="header">
@@ -93,7 +93,6 @@
           </ul>
         </div>
       </section>
-
       <section>
         <div class="container list-container">
           <h2 class="secondary-headline">What Are We Doing</h2>
@@ -121,13 +120,17 @@
                 width="264"
                 alt="Mark Guerrero"
               />
-              <h3 class="name-team">Mark Guerrero</h3>
-              <p class="team-position">Product Designer</p>
+              <div class="borders-text">
+                <h3 class="name-team">Mark Guerrero</h3>
+                <p class="team-position">Product Designer</p>
+              </div>
             </li>
             <li class="secondary-item team-color">
               <img src="./images/tom-ford.jpg" width="264" alt="Tom Ford" />
-              <h3 class="name-team">Tom Ford</h3>
-              <p class="team-position">Frontend Developer</p>
+              <div class="borders-text">
+                <h3 class="name-team">Tom Ford</h3>
+                <p class="team-position">Frontend Developer</p>
+              </div>
             </li>
             <li class="secondary-item team-color">
               <img
@@ -135,8 +138,10 @@
                 width="264"
                 alt="Camila Garcia"
               />
-              <h3 class="name-team">Camila Garcia</h3>
-              <p class="team-position">Marketing</p>
+              <div class="borders-text">
+                <h3 class="name-team">Camila Garcia</h3>
+                <p class="team-position">Marketing</p>
+              </div>
             </li>
             <li class="secondary-item team-color">
               <img
@@ -144,8 +149,10 @@
                 width="264"
                 alt="Daniel Wilson"
               />
-              <h3 class="name-team">Daniel Wilson</h3>
-              <p class="team-position">UI Designer</p>
+              <div class="borders-text">
+                <h3 class="name-team">Daniel Wilson</h3>
+                <p class="team-position">UI Designer</p>
+              </div>
             </li>
           </ul>
         </div>
@@ -153,12 +160,10 @@
     </main>
     <footer class="box">
       <div class="container">
-        <div class="footer-logo">
-          <a href="./index.html" class="logo-name"
-            ><span class="word-web">WEB</span
-            ><span class="word-studio-footer">STUDIO</span></a
-          >
-        </div>
+        <a href="./index.html" class="logo-name"
+          ><span class="word-web">WEB</span
+          ><span class="word-studio-footer">STUDIO</span></a
+        >
         <p class="footer-description">
           Increase the flow of customers and sales for your business with
           digital marketing & growth solutions.
