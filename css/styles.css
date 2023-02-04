@@ -104,13 +104,16 @@ body {
 .header-contact:hover {
   color: var(--secondary-color);
 }
+.section {
+  padding-bottom: 120px;
+  padding-top: 120px;
+}
 .headline-box {
   background-color: var(--primary-color);
-  padding-bottom: 188px;
   padding-top: 188px;
+  padding-bottom: 188px;
 }
-.headline-container {
-}
+
 .headline {
   color: var(--font-white-color);
   font-weight: 700;
@@ -143,13 +146,9 @@ body {
   color: var(--secondary-color);
   cursor: pointer;
 }
-.goals-container {
-  padding-top: 120px;
-  padding-bottom: 120px;
-}
-.list-container {
-  padding-top: 120px;
-  padding-bottom: 120px;
+
+.list {
+  padding-top: 0;
 }
 .main-list {
   display: flex;
